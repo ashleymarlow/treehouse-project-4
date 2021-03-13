@@ -1,0 +1,15 @@
+// COLORS
+$primary-color: #58e1c1;
+$secondary-color: #51ddfc;
+$tertiary-color:#777;
+$default-color:#51ddfc;
+$success-color:#63cc82;
+$error-color:#e4757a;
+$warning-color:#fd7856;
+$info-color:#927bc1;
+
+// BUTTONS
+$button-lighten: lighten($secondary-color, 15%);
+
+// MEDIA QUERIES
+$medium-breakpoint: 768px;
