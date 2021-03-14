@@ -9,7 +9,14 @@ $warning-color:#fd7856;
 $info-color:#927bc1;
 
 // BUTTONS
-$button-lighten: lighten($secondary-color, 15%);
+$primary-color-lighten: lighten($primary-color, 15%);
+$secondary-color-lighten: lighten($secondary-color, 15%);
+$tertiary-color-lighten: lighten($tertiary-color, 15%);
+$default-color-lighten: lighten($default-color, 15%);
+$success-color-lighten: lighten($success-color, 15%);
+$error-color-lighten: lighten($error-color, 15%);
+$warning-color-lighten: lighten($warning-color, 15%);
+$info-color-lighten: lighten($info-color, 15%);
 
 // MEDIA QUERIES
 $medium-breakpoint: 768px;

@@ -9,26 +9,40 @@
     
     &.default {
       background-color: $default-color;
+        &:hover {
+          background-color: $default-color-lighten;
+      }
     }
     
     &.error {
       background-color: $error-color;
+        &:hover {
+          background-color: $error-color-lighten;
+        }
     }
     
     &.info {
       background-color: $info-color;
+        &:hover {
+          background-color: $info-color-lighten;
+        }
     }
     
     &.success {
       background-color: $success-color;
+        &:hover {
+          background-color: $success-color-lighten;
+        }
     }
     
     &.warning {
       background-color: $warning-color;
+        &:hover {
+          background-color: $warning-color-lighten;
+        }
     }
 
     &:hover {
-      background-color: $button-lighten;
       transition-duration: .6s;
     }
     
